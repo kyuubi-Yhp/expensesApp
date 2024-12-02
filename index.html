@@ -10,7 +10,23 @@
 </head>
 
 <body>
-
+  <div class="container">
+    <h1 class="title">учет рассходов</h1>
+    <div class="flex__box">
+      <div class="sum__and-btn">
+        <input class="sum sum-js" type="number">
+        <button class="btn__add btn__add-js">добавить</button>
+        <p class="wallet wallet-js">сумма трат: <span class="total-js">0</span></p>
+        <p class="wallet wallet-js">лимит: <span class="limit-js"></span></p>
+        <p class="status-js"></p>
+      </div>
+      <div class="error error-js"></div>
+      <div class="wallet__and">
+        <h2 class="history__title">история трат</h2>
+        <div class="history__espenses history__espenses-js"></div>
+      </div>
+    </div>
+  </div>
   <script src="script/script.js"></script>
 </body>
 

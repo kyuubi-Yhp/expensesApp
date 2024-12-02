@@ -1,3 +1,62 @@
+.container {
+padding: 20px 70px;
+}
 
+.title {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
 
+.sum__and-btn {
+  display: flex;
+  flex-direction: column;
+}
 
+.sum {
+  border-radius: 15px;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #7e69d8;
+}
+
+.btn__add {
+  background-color: #7e69d8;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+}
+
+.error {
+  color: brown;
+  font-size: 20px;
+}
+
+.wallet {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.history__title {
+  font-size: 20px;
+}
+
+.history__espenses {
+  padding-left: 15px;
+}
+
+.flex__box {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.status_green {
+  color: green;
+}
+.status_red {
+  color: red;
+}
